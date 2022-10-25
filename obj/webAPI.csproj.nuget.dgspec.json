@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vscWorkspace\\wepApiReact\\dotnetApi\\dotnetApi.csproj": {}
+    "D:\\vscWorkspace\\wepApiReact\\webAPI\\webAPI.csproj": {}
   },
   "projects": {
-    "D:\\vscWorkspace\\wepApiReact\\dotnetApi\\dotnetApi.csproj": {
+    "D:\\vscWorkspace\\wepApiReact\\webAPI\\webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vscWorkspace\\wepApiReact\\dotnetApi\\dotnetApi.csproj",
-        "projectName": "dotnetApi",
-        "projectPath": "D:\\vscWorkspace\\wepApiReact\\dotnetApi\\dotnetApi.csproj",
+        "projectUniqueName": "D:\\vscWorkspace\\wepApiReact\\webAPI\\webAPI.csproj",
+        "projectName": "webAPI",
+        "projectPath": "D:\\vscWorkspace\\wepApiReact\\webAPI\\webAPI.csproj",
         "packagesPath": "C:\\Users\\dtnha\\.nuget\\packages\\",
-        "outputPath": "D:\\vscWorkspace\\wepApiReact\\dotnetApi\\obj\\",
+        "outputPath": "D:\\vscWorkspace\\wepApiReact\\webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,16 +41,12 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.0-rc.2.22476.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -72,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
